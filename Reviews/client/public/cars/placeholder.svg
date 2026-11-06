@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Изображение автомобиля">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c1d2b"/>
+      <stop offset="0.55" stop-color="#3c3770"/>
+      <stop offset="1" stop-color="#6d5efc"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#cfd4ff"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a8b4ff"/>
+      <stop offset="1" stop-color="#4a4f8a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="50%">
+      <stop offset="0" stop-color="#a08cff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#a08cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="400" cy="230" r="250" fill="url(#glow)"/>
+
+  <g opacity="0.28" stroke="#ffffff" stroke-width="1">
+    <path d="M0 400h800"/>
+    <path d="M120 500 280 400M260 500 330 400M420 500 380 400M560 500 430 400M700 500 480 400M800 460 530 400"/>
+  </g>
+
+  <path d="M118 338c0-20 20-34 54-41l66-37c28-16 62-24 104-24h118c42 0 74 13 103 36l38 30c55 7 83 19 91 37l5 15c2 8-3 16-12 16h-39c-9-30-35-48-68-48s-59 18-68 48H358c-9-30-35-48-68-48s-59 18-68 48h-32c-12 0-20-9-20-20z" fill="url(#body)"/>
+  <path d="M284 258l52-29c21-12 48-17 78-17h40v47zm184-46h39c30 0 54 9 76 27l27 21h-142z" fill="url(#glass)"/>
+  <path d="M262 300h474" stroke="#6d5efc" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+
+  <circle cx="290" cy="349" r="54" fill="#161724"/>
+  <circle cx="290" cy="349" r="34" fill="#8f97c9"/>
+  <circle cx="290" cy="349" r="16" fill="#2b2d45"/>
+  <circle cx="610" cy="349" r="54" fill="#161724"/>
+  <circle cx="610" cy="349" r="34" fill="#8f97c9"/>
+  <circle cx="610" cy="349" r="16" fill="#2b2d45"/>
+
+  <rect x="690" y="303" width="40" height="12" rx="6" fill="#ffe9a8"/>
+  <text x="400" y="462" text-anchor="middle" fill="#ffffff" fill-opacity="0.85" font-family="Inter, Segoe UI, sans-serif" font-size="22" font-weight="600" letter-spacing="6">REVIEWS</text>
+</svg>
